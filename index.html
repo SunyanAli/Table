@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Invoice Table</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<table>
+  <thead>
+    <tr>
+      <th>Invoice</th>
+      <th>Name</th>
+      <th>Date</th>
+      <th>Payment Status</th>
+      <th>Amount</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>INV001</td>
+      <td>Adan</td>
+      <td>2024-03-11</td>
+      <td><span class="paid paid-true">Paid</span></td>
+      <td>1000</td>
+      <td>
+        <button class="action-btn"><ion-icon name="create-sharp"></ion-icon><Edit></button>
+        <button class="action-btn"><ion-icon name="trash-sharp"></ion-icon><Delete></button>
+      </td>
+    </tr>
+      <tr>
+      <td>INV002</td>
+      <td>Hamza</td>
+      <td>2024-02-21</td>
+      <td><span class="paid paid-false">Unpaid</span></td>
+      <td>29930</td>
+      <td>
+        <button class="action-btn"><ion-icon name="create-sharp"></ion-icon><Edit></button>
+        <button class="action-btn"><ion-icon name="trash-sharp"></ion-icon><Delete></button>
+      </td>
+    </tr>
+      <tr>
+      <td>INV003</td>
+      <td>Waleed</td>
+      <td>2022-03-22</td>
+      <td><span class="paid paid-true">Paid</span></td>
+      <td>24455</td>
+      <td>
+        <button class="action-btn"><ion-icon name="create-sharp"></ion-icon><Edit></button>
+        <button class="action-btn"><ion-icon name="trash-sharp"></ion-icon><Delete></button>
+      </td>
+    </tr>
+      <tr>
+      <td>INV004</td>
+      <td>Hassan</td>
+      <td>2023-01-14</td>
+      <td><span class="paid paid-false">Unpaid</span></td>
+      <td>9888</td>
+      <td>
+        <button class="action-btn"><ion-icon name="create-sharp"></ion-icon><Edit></button>
+        <button class="action-btn"><ion-icon name="trash-sharp"></ion-icon><Delete></button>
+      </td>
+    </tr>
+      <tr>
+      <td>INV005</td>
+      <td>Sunny</td>
+      <td>2022-03-11</td>
+      <td><span class="paid paid-true">Paid</span></td>
+      <td>6655</td>
+      <td>
+        <button class="action-btn"><ion-icon name="create-sharp"></ion-icon><Edit></button>
+        <button class="action-btn"><ion-icon name="trash-sharp"></ion-icon><Delete></button>
+      </td>
+    </tr>
+      <tr>
+      <td>INV006</td>
+      <td>Khalid</td>
+      <td>2024-07-12</td>
+      <td><span class="paid paid-false">Unpaid</span></td>
+      <td>45332</td>
+      <td>
+        <button class="action-btn"><ion-icon name="create-sharp"></ion-icon><Edit></button>
+        <button class="action-btn"><ion-icon name="trash-sharp"></ion-icon><Delete></button>
+      </td>
+    </tr>
+    
+  </tbody>
+</table>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
